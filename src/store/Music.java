@@ -1,3 +1,5 @@
+package store;
+
 public class Music extends Content implements Purchasable {
 
     private String singer;
@@ -9,9 +11,7 @@ public class Music extends Content implements Purchasable {
 
     @Override
     public void showInfo() {
-        System.out.println("[Music] Title: " + title +
-                " / Price: " + price +
-                " / Singer: " + singer);
+        System.out.println("[Music] Title: " + title + " / Price: " + price + " / Singer: " + singer);
     }
 
     @Override
